@@ -327,9 +327,6 @@ section.experience{
     height: 400px;
     border-radius: 15px;
     transition: transform .2s;
-    /*-webkit-box-shadow: 4px 8px 64px -4px rgba(85,76,37,1);
--moz-box-shadow: 4px 8px 64px -4px rgba(85,76,37,1);
-box-shadow: 4px 8px 64px -4px rgba(85,76,37,1);*/
 -webkit-box-shadow: 4px 8px 64px -4px rgba(230,221,206,1);
 -moz-box-shadow: 4px 8px 64px -4px rgba(230,221,206,1);
 box-shadow: 4px 8px 64px -4px rgba(230,221,206,1);
@@ -475,8 +472,6 @@ fieldset{
 }
 
 
-
-/*OJOOOO PARTE NUEVAAAA */
 
 .flex {
     display: flex;
@@ -720,23 +715,18 @@ section.academic{
    margin: 0;
    gap: 12px;
    padding: 1em;
-   border: 2px solid green;
+   
 }
-.academic__courses__box{
-   border: 2px solid red;  
-}
-.academic__courses__list{
-   border: 2px solid black;
-}
+
 .academic__courses__item__list{
-    border: 2px solid olive;
+    
     width: 97%;
     height: 50%;
 }
 .academic__courses__item__img{
     width: 100%;
     margin: .5em;  
-    /*transition: none;*/
+    
 }
 .academic__courses__item__img:hover{
    transform: scale(1.1);
@@ -812,14 +802,12 @@ section.contacto{
     padding: 0 1em;
     
     width: 90vw;
-    border: 2px solid blue;
+    
 }
 .formcontato__img{
     display: none;
 }
-.formcontato__text{
-    border: 2px solid brown;
-}
+
 .formcontato__botao{
     align-self: center;
 }
@@ -832,12 +820,10 @@ section.contacto{
 section.menu{
     justify-content: space-evenly;
     padding: 0;
-    border: 2px solid var(--color-boton-exp-demo);
 }
 .menu__header{
     margin: 0;
     width: 40%;
-    border: 2px solid violet;
 
 }
 nav{
@@ -871,7 +857,7 @@ nav{
 .title__network__item{
     font-size: 14px;
     font-weight: bold;
-    margin-right: .7em;
+    margin-right: .5em;
    
 }
 /*Sección sobre mi*/
@@ -903,7 +889,7 @@ nav{
     flex-direction: column;
 }
 .academic__courses__item__list{
-    border: 2px solid olive;
+    
     width: 80%;
     height: 40%;
     margin: 0 2em;
